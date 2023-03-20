@@ -9,10 +9,10 @@ function palindrome(str){
         while(s<=e)
             {
                 if(str.charAt(s)!=str.charAt(e))
-                    console.log(false);
+                    return (false);
                 s++;e--;
             }
-                    console.log(true);
+                    return (true);
 }
 
 module.exports = palindrome
